@@ -2,8 +2,8 @@
   "name": "tracing-nest",
   "version": "0.0.2",
   "description": "",
-  "author": "",
-  "private": true,
+  "author": "Jonny",
+  "private": false,
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
