@@ -1,10 +1,10 @@
 {
-  "name": "tracing-nest",
+  "name": "@jonny/tracing-nestjs",
   "version": "0.0.3",
-  "description": "",
+  "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo_text.svg\" width=\"320\" alt=\"Nest Logo\" /></a> </p>",
   "author": "Jonny",
   "private": false,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -72,5 +72,20 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": "src/main.ts",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnySH/tracing-nest.git"
+  },
+  "keywords": [
+    "tracing"
+  ],
+  "bugs": {
+    "url": "https://github.com/JonnySH/tracing-nest/issues"
+  },
+  "homepage": "https://github.com/JonnySH/tracing-nest#readme"
 }
