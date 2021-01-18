@@ -1,33 +1,133 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.initTracing = void 0;
+exports.NestTracing = void 0;
 const api_1 = require("@opentelemetry/api");
-const core_1 = require("@opentelemetry/core");
 const node_1 = require("@opentelemetry/node");
 const tracing_1 = require("@opentelemetry/tracing");
 const exporter_jaeger_1 = require("@opentelemetry/exporter-jaeger");
-function initTracing(serviceName, pkg, jaegerOptions) {
-    const provider = new node_1.NodeTracerProvider({
-        logLevel: core_1.LogLevel.INFO,
-        plugins: {
+class NestTracing {
+    constructor(serviceName, pkg, exporterOption, plugins, exporter = 'jaeger', platform = 'express') {
+        const supportPlugins = {
+            koa: {
+                enabled: true,
+                path: '@opentelemetry/koa-instrumentation',
+            },
             express: {
                 enabled: true,
                 path: '@opentelemetry/plugin-express',
             },
             http: {
-                enabled: true,
+                enabled: !!plugins ? (plugins.http === false ? false : true) : true,
                 path: '@opentelemetry/plugin-http',
             },
             https: {
-                enabled: true,
+                enabled: !!plugins ? (plugins.https === false ? false : true) : true,
                 path: '@opentelemetry/plugin-https',
             },
-        },
-    });
-    provider.register();
-    provider.addSpanProcessor(new tracing_1.BatchSpanProcessor(new exporter_jaeger_1.JaegerExporter(Object.assign({}, jaegerOptions, { serviceName }))));
-    console.log('tracing initialized');
-    return api_1.trace.getTracer(pkg.name, pkg.version);
+        };
+        if (platform === 'express') {
+            delete supportPlugins.koa;
+        }
+        else {
+            delete supportPlugins.express;
+        }
+        const provider = new node_1.NodeTracerProvider({
+            plugins: {
+                express: {
+                    enabled: true,
+                    path: '@opentelemetry/plugin-express',
+                },
+                http: {
+                    enabled: true,
+                    path: '@opentelemetry/plugin-http',
+                },
+                https: {
+                    enabled: true,
+                    path: '@opentelemetry/plugin-https',
+                },
+            },
+        });
+        let _exporter;
+        if (exporter === 'jaeger') {
+            const _options = Object.assign({}, exporterOption);
+            _options.serviceName = serviceName;
+            _exporter = new exporter_jaeger_1.JaegerExporter(_options);
+        }
+        else {
+            throw new Error('ExporterNotJaeger');
+        }
+        provider.addSpanProcessor(new tracing_1.SimpleSpanProcessor(_exporter));
+        provider.register();
+        this.tracer = api_1.trace.getTracer(pkg.name, pkg.version);
+    }
+    get instance() {
+        if (!!this.tracer) {
+            return this.tracer;
+        }
+        else {
+            throw new Error('Tracer Not Instantiated');
+        }
+    }
+    get currentTraceId() {
+        if (!!this.tracer) {
+            const currentSpan = this.tracer.getCurrentSpan();
+            const { traceId } = currentSpan.context();
+            return traceId;
+        }
+        else {
+            throw new Error('Tracer Not Instantiated');
+        }
+    }
+    get currentSpan() {
+        if (!!this.tracer) {
+            const currentSpan = this.tracer.getCurrentSpan();
+            return currentSpan;
+        }
+        else {
+            throw new Error('Tracer Not Instantiated');
+        }
+    }
+    setAttribute(key, value) {
+        if (!!this.tracer) {
+            const currentSpan = this.tracer.getCurrentSpan();
+            currentSpan.setAttribute(key, value);
+        }
+        else {
+            throw new Error('Tracer Not Instantiated');
+        }
+    }
+    setAttributes(attributes) {
+        if (!!this.tracer) {
+            const currentSpan = this.tracer.getCurrentSpan();
+            currentSpan.setAttributes(attributes);
+        }
+        else {
+            throw new Error('Tracer Not Instantiated');
+        }
+    }
+    setStatus(code, message = undefined) {
+        if (!!this.tracer) {
+            const currentSpan = this.tracer.getCurrentSpan();
+            const status = { code, message };
+            if (message === undefined) {
+                delete status.message;
+            }
+            currentSpan.setStatus(status);
+        }
+        else {
+            throw new Error('Tracer Not Instantiated');
+        }
+    }
+    startSpan(name, options = undefined, context = undefined) {
+        const _trace = this.tracer;
+        if (_trace) {
+            const span = _trace.startSpan(name, options, context);
+            return span;
+        }
+        else {
+            throw new Error('Tracer Not Instantiated');
+        }
+    }
 }
-exports.initTracing = initTracing;
+exports.NestTracing = NestTracing;
 //# sourceMappingURL=tracing.middleware.js.map
