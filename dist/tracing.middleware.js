@@ -14,6 +14,14 @@ function initTracing(serviceName, pkg, jaegerOptions) {
                 enabled: true,
                 path: '@opentelemetry/plugin-express',
             },
+            http: {
+                enabled: true,
+                path: '@opentelemetry/plugin-http',
+            },
+            https: {
+                enabled: true,
+                path: '@opentelemetry/plugin-https',
+            },
         },
     });
     provider.register();

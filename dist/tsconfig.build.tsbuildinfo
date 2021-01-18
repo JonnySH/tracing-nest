@@ -821,9 +821,24 @@
         "signature": "c955921b821db00eb5202b6b811d95d621997723d4b312158048eda2585d0394",
         "affectsGlobalScope": false
       },
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/api/build/src/index.d.ts": {
+        "version": "40f2c29e79194aacc08c809c2cefbcf77bc876560a5c1b4e74c0bb7a80c6d71c",
+        "signature": "40f2c29e79194aacc08c809c2cefbcf77bc876560a5c1b4e74c0bb7a80c6d71c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/core/build/src/index.d.ts": {
+        "version": "c955921b821db00eb5202b6b811d95d621997723d4b312158048eda2585d0394",
+        "signature": "c955921b821db00eb5202b6b811d95d621997723d4b312158048eda2585d0394",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@opentelemetry/node/build/src/instrumentation/pluginloader.d.ts": {
         "version": "bd2228363f9261b98c1ac241d3ef99a49a44e6eeab0c9605e65cedb0d94e04df",
         "signature": "bd2228363f9261b98c1ac241d3ef99a49a44e6eeab0c9605e65cedb0d94e04df",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@opentelemetry/resources/node_modules/@opentelemetry/api/build/src/index.d.ts": {
+        "version": "40f2c29e79194aacc08c809c2cefbcf77bc876560a5c1b4e74c0bb7a80c6d71c",
+        "signature": "40f2c29e79194aacc08c809c2cefbcf77bc876560a5c1b4e74c0bb7a80c6d71c",
         "affectsGlobalScope": false
       },
       "../node_modules/@opentelemetry/resources/build/src/config.d.ts": {
@@ -881,62 +896,62 @@
         "signature": "cc7fc4a0aa117ba023aa038755d8f8f4fa7c83e5d94d957969b6d0d8ea0ec40c",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/types.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts": {
         "version": "7a968ef9364783e27be94487f54ecacac014c154dd7b6bc491ed10a8873cb3aa",
         "signature": "7a968ef9364783e27be94487f54ecacac014c154dd7b6bc491ed10a8873cb3aa",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts": {
         "version": "52ccff452442d74bfd1c1b624c9cea50c2573501c2911ca2cc8f5c0c4e804f10",
         "signature": "52ccff452442d74bfd1c1b624c9cea50c2573501c2911ca2cc8f5c0c4e804f10",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts": {
         "version": "031363520c398965352f187f47508c3bd75a5fc391c18450c689b205666f6612",
         "signature": "031363520c398965352f187f47508c3bd75a5fc391c18450c689b205666f6612",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/span.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts": {
         "version": "e1e4da9d3d90297c92da84ae245fb376971008bc5b4c9161a6d869b57f0c77eb",
         "signature": "e1e4da9d3d90297c92da84ae245fb376971008bc5b4c9161a6d869b57f0c77eb",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts": {
         "version": "0bae821db2a1c143dbce578e41b3d7f338ef6591fe79a899c33a85e8c7113334",
         "signature": "0bae821db2a1c143dbce578e41b3d7f338ef6591fe79a899c33a85e8c7113334",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/tracer.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts": {
         "version": "431e17cf9e79a97b318cb89d308aebeddc307097b73de767aec576db512e2206",
         "signature": "431e17cf9e79a97b318cb89d308aebeddc307097b73de767aec576db512e2206",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts": {
         "version": "efc879c2c925acd2db03d6f6e30e39abf4b55e118712a69bc27f514ad502d5c4",
         "signature": "efc879c2c925acd2db03d6f6e30e39abf4b55e118712a69bc27f514ad502d5c4",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts": {
         "version": "05f777481bf9faf723296eac35d4c37cdf7c7a45ca65d17a0f4cc3e8a9523ff1",
         "signature": "05f777481bf9faf723296eac35d4c37cdf7c7a45ca65d17a0f4cc3e8a9523ff1",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts": {
         "version": "144f639ff2c066285d5cbfeb9475a75c52605ecb43a8cd59cced7da28814515b",
         "signature": "144f639ff2c066285d5cbfeb9475a75c52605ecb43a8cd59cced7da28814515b",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts": {
         "version": "49bd61bd52c7373f91bf14fadc15cc23761c8fae04bd1de5bfd711c6af558d78",
         "signature": "49bd61bd52c7373f91bf14fadc15cc23761c8fae04bd1de5bfd711c6af558d78",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts": {
         "version": "a3c1f3964284946ac9e5856e87bc9f0186bd146b4856067426cb7c9df5e92399",
         "signature": "a3c1f3964284946ac9e5856e87bc9f0186bd146b4856067426cb7c9df5e92399",
         "affectsGlobalScope": false
       },
-      "../node_modules/@opentelemetry/tracing/build/src/index.d.ts": {
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts": {
         "version": "e4b09df7592f46e19468053aff13ab5841d55df95c6b0b1e1fc208163fa888c1",
         "signature": "e4b09df7592f46e19468053aff13ab5841d55df95c6b0b1e1fc208163fa888c1",
         "affectsGlobalScope": false
@@ -956,6 +971,26 @@
         "signature": "52ec7d493aef5f259d307e4f95a2c90649a56d747f2227a0753d16837b84596b",
         "affectsGlobalScope": false
       },
+      "../node_modules/@opentelemetry/tracing/build/src/index.d.ts": {
+        "version": "e4b09df7592f46e19468053aff13ab5841d55df95c6b0b1e1fc208163fa888c1",
+        "signature": "e4b09df7592f46e19468053aff13ab5841d55df95c6b0b1e1fc208163fa888c1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/core/build/src/index.d.ts": {
+        "version": "c955921b821db00eb5202b6b811d95d621997723d4b312158048eda2585d0394",
+        "signature": "c955921b821db00eb5202b6b811d95d621997723d4b312158048eda2585d0394",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/tracing/build/src/index.d.ts": {
+        "version": "e4b09df7592f46e19468053aff13ab5841d55df95c6b0b1e1fc208163fa888c1",
+        "signature": "e4b09df7592f46e19468053aff13ab5841d55df95c6b0b1e1fc208163fa888c1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/api/build/src/index.d.ts": {
+        "version": "40f2c29e79194aacc08c809c2cefbcf77bc876560a5c1b4e74c0bb7a80c6d71c",
+        "signature": "40f2c29e79194aacc08c809c2cefbcf77bc876560a5c1b4e74c0bb7a80c6d71c",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@opentelemetry/exporter-jaeger/build/src/types.d.ts": {
         "version": "33bb5f5960cacb644b8c56b7711824d08c016d51afaef7f0637a286e39896198",
         "signature": "33bb5f5960cacb644b8c56b7711824d08c016d51afaef7f0637a286e39896198",
@@ -972,7 +1007,7 @@
         "affectsGlobalScope": false
       },
       "../src/tracing.middleware.ts": {
-        "version": "f95ee6a4266203912b8ad7e44def6a43c1913c152dea2c635eee8ca28dd3cd84",
+        "version": "e10c5b011726fe6509743f961fa66b81a2f4127037cc25dcccb277e7048b7286",
         "signature": "30842124bbff3e3107031bd9fc2a783900025b4f170eaa626273c682b6f7a877",
         "affectsGlobalScope": false
       },
@@ -1042,8 +1077,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/estree/index.d.ts": {
-        "version": "745a853d60bf782583a58584f59e202cae5c7a898b0c92696442602a3ef17a87",
-        "signature": "745a853d60bf782583a58584f59e202cae5c7a898b0c92696442602a3ef17a87",
+        "version": "6a38e250306ceccbab257d11b846d5bd12491157d20901fa01afe4050c93c1b5",
+        "signature": "6a38e250306ceccbab257d11b846d5bd12491157d20901fa01afe4050c93c1b5",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/eslint/index.d.ts": {
@@ -1634,15 +1669,102 @@
       "../node_modules/@opentelemetry/exporter-jaeger/build/src/jaeger.d.ts": [
         "../node_modules/@opentelemetry/core/build/src/index.d.ts",
         "../node_modules/@opentelemetry/exporter-jaeger/build/src/types.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/exporter-jaeger/build/src/types.d.ts": [
         "../node_modules/@opentelemetry/api/build/src/index.d.ts",
         "../node_modules/@types/node/index.d.ts"
       ],
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/api/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/api/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/metrics.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/propagation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/trace.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/baggage.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/entryvalue.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/exception.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/logger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/nooptextmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/textmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/batchobserverresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/boundinstrument.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/metric.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observerresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/attributes.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/event.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/noopspan.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/sampler.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/samplingresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_kind.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spancontext-utils.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spanoptions.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/status.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/timedevent.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_flags.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_state.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer_provider.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/core/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/baggage/propagation/httpbaggage.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/attributes.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/consolelogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/global-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/logging-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/composite.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/httptracecontext.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/exportresult.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/platform/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/idgenerator.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/norecordingspan.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/plugin.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysoffsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysonsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/parentbasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/traceidratiobasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/tracestate.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/deep-merge.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/url.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/wrap.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/version.d.ts"
+      ],
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/tracing/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
+      ],
       "../node_modules/@opentelemetry/node/build/src/config.d.ts": [
         "../node_modules/@opentelemetry/node/build/src/instrumentation/pluginloader.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/node/build/src/index.d.ts": [
         "../node_modules/@opentelemetry/node/build/src/config.d.ts",
@@ -1655,7 +1777,158 @@
       ],
       "../node_modules/@opentelemetry/node/build/src/nodetracerprovider.d.ts": [
         "../node_modules/@opentelemetry/node/build/src/config.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/api/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/api/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/metrics.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/propagation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/trace.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/baggage.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/entryvalue.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/exception.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/logger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/nooptextmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/textmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/batchobserverresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/boundinstrument.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/metric.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observerresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/attributes.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/event.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/noopspan.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/sampler.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/samplingresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_kind.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spancontext-utils.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spanoptions.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/status.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/timedevent.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_flags.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_state.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer_provider.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/core/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/baggage/propagation/httpbaggage.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/attributes.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/consolelogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/global-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/logging-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/composite.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/httptracecontext.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/exportresult.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/platform/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/idgenerator.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/norecordingspan.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/plugin.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysoffsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysonsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/parentbasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/traceidratiobasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/tracestate.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/deep-merge.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/url.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/wrap.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/version.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/resources/build/src/config.d.ts": [
         "../node_modules/@opentelemetry/api/build/src/index.d.ts",
@@ -1696,82 +1969,65 @@
         "../node_modules/@opentelemetry/resources/build/src/config.d.ts",
         "../node_modules/@opentelemetry/resources/build/src/resource.d.ts"
       ],
-      "../node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts": [
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts": [
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts": [
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts": [
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts": [
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts"
+      "../node_modules/@opentelemetry/resources/node_modules/@opentelemetry/api/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/api/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/metrics.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/propagation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/trace.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/baggage.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/entryvalue.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/exception.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/logger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/nooptextmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/textmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/batchobserverresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/boundinstrument.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/metric.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observerresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/attributes.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/event.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/noopspan.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/sampler.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/samplingresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_kind.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spancontext-utils.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spanoptions.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/status.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/timedevent.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_flags.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_state.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer_provider.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/tracing/build/src/index.d.ts": [
-        "../node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/span.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/tracer.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/tracer.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/types.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
       ],
       "../node_modules/@types/babel__core/index.d.ts": [
         "../node_modules/@babel/parser/typings/babel-parser.d.ts",
@@ -2133,7 +2389,7 @@
         "../node_modules/@opentelemetry/core/build/src/index.d.ts",
         "../node_modules/@opentelemetry/exporter-jaeger/build/src/index.d.ts",
         "../node_modules/@opentelemetry/node/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -2469,15 +2725,102 @@
       "../node_modules/@opentelemetry/exporter-jaeger/build/src/jaeger.d.ts": [
         "../node_modules/@opentelemetry/core/build/src/index.d.ts",
         "../node_modules/@opentelemetry/exporter-jaeger/build/src/types.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/exporter-jaeger/build/src/types.d.ts": [
         "../node_modules/@opentelemetry/api/build/src/index.d.ts",
         "../node_modules/@types/node/index.d.ts"
       ],
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/api/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/api/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/metrics.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/propagation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/trace.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/baggage.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/entryvalue.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/exception.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/logger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/nooptextmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/textmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/batchobserverresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/boundinstrument.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/metric.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observerresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/attributes.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/event.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/noopspan.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/sampler.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/samplingresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_kind.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spancontext-utils.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spanoptions.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/status.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/timedevent.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_flags.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_state.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer_provider.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/core/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/baggage/propagation/httpbaggage.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/attributes.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/consolelogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/global-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/logging-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/composite.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/httptracecontext.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/exportresult.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/platform/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/idgenerator.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/norecordingspan.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/plugin.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysoffsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysonsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/parentbasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/traceidratiobasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/tracestate.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/deep-merge.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/url.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/wrap.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/version.d.ts"
+      ],
+      "../node_modules/@opentelemetry/exporter-jaeger/node_modules/@opentelemetry/tracing/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
+      ],
       "../node_modules/@opentelemetry/node/build/src/config.d.ts": [
         "../node_modules/@opentelemetry/node/build/src/instrumentation/pluginloader.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/node/build/src/index.d.ts": [
         "../node_modules/@opentelemetry/node/build/src/config.d.ts",
@@ -2490,7 +2833,158 @@
       ],
       "../node_modules/@opentelemetry/node/build/src/nodetracerprovider.d.ts": [
         "../node_modules/@opentelemetry/node/build/src/config.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/api/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/api/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/metrics.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/propagation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/trace.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/baggage.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/entryvalue.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/exception.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/logger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/nooptextmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/textmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/batchobserverresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/boundinstrument.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/metric.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observerresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/attributes.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/event.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/noopspan.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/sampler.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/samplingresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_kind.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spancontext-utils.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spanoptions.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/status.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/timedevent.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_flags.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_state.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer_provider.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/core/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/baggage/propagation/httpbaggage.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/attributes.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/consolelogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/global-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/logging-error-handler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/common/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/composite.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/httptracecontext.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/context/propagation/types.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/exportresult.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/platform/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/idgenerator.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/norecordingspan.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/plugin.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysoffsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/alwaysonsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/parentbasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/sampler/traceidratiobasedsampler.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/trace/tracestate.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/deep-merge.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/url.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/utils/wrap.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/version.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts": [
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+      ],
+      "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
+        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/resources/build/src/config.d.ts": [
         "../node_modules/@opentelemetry/api/build/src/index.d.ts",
@@ -2531,82 +3025,65 @@
         "../node_modules/@opentelemetry/resources/build/src/config.d.ts",
         "../node_modules/@opentelemetry/resources/build/src/resource.d.ts"
       ],
-      "../node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts": [
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts": [
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts": [
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts": [
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts": [
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts"
+      "../node_modules/@opentelemetry/resources/node_modules/@opentelemetry/api/build/src/index.d.ts": [
+        "../node_modules/@opentelemetry/api/build/src/api/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/metrics.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/propagation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/api/trace.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/baggage.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/baggage/entryvalue.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/exception.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/logger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/common/time.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/nooptextmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/context/propagation/textmappropagator.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/batchobserverresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/boundinstrument.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/meterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/metric.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeter.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/noopmeterprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observation.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/metrics/observerresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/attributes.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/event.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/link_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooplogger.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/noopspan.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/nooptracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/proxytracerprovider.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/sampler.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/samplingresult.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_context.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/span_kind.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spancontext-utils.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/spanoptions.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/status.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/timedevent.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_flags.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/trace_state.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer.d.ts",
+        "../node_modules/@opentelemetry/api/build/src/trace/tracer_provider.d.ts",
+        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts"
       ],
       "../node_modules/@opentelemetry/tracing/build/src/index.d.ts": [
-        "../node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/span.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/tracer.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/span.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/tracer.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
-        "../node_modules/@opentelemetry/tracing/build/src/types.d.ts"
-      ],
-      "../node_modules/@opentelemetry/tracing/build/src/types.d.ts": [
-        "../node_modules/@opentelemetry/api/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/context-base/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/core/build/src/index.d.ts",
-        "../node_modules/@opentelemetry/resources/build/src/index.d.ts"
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/basictracerprovider.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/batchspanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/consolespanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/inmemoryspanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/readablespan.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/simplespanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/export/spanexporter.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/span.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/spanprocessor.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/tracer.d.ts",
+        "../node_modules/@opentelemetry/node/node_modules/@opentelemetry/tracing/build/src/types.d.ts"
       ],
       "../node_modules/@types/babel__core/index.d.ts": [
         "../node_modules/@babel/parser/typings/babel-parser.d.ts",
