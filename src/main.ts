@@ -1,3 +1,3 @@
-import { initTracing } from './tracing.middleware';
+import { NestTracing } from './tracing.middleware';
 
-export { initTracing };
+export { NestTracing };
