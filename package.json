@@ -1,6 +1,6 @@
 {
   "name": "@jonny/tracing-nestjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo_text.svg\" width=\"320\" alt=\"Nest Logo\" /></a> </p>",
   "author": "Jonny",
   "private": false,
@@ -15,7 +15,7 @@
     "start:prod": "node dist/main.js",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "prepare": "npm run build",
-    "version": "rm -rf ./lib && npm run format && npm run build && git add -A src lib",
+    "version": "rm -rf ./dist && npm run format && npm run build && git add -A src dist",
     "postversion": "git push && git push --tags",
     "test": "jest",
     "test:watch": "jest --watch",
